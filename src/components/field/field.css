@@ -1,0 +1,25 @@
+.campo-texto {
+    margin: 15px 0;
+
+}
+
+.campo-texto label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.campo-texto input {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 80%;
+    border: none;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 1px solid #d1d3e2
+
+}
+
+.campo-texto input:focus { 
+    border: 3px solid rgb(164, 164, 164);
+}
