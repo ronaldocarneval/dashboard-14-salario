@@ -11,7 +11,7 @@ const Navbar = () => {
             
            <Button>
                 Acessar o Raking
-            <img src="./arrow.svg"/>
+            <img src="./arrow.png"/>
             </Button>
             
             </div>
