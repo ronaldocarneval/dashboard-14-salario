@@ -1,13 +1,11 @@
 
 import './App.css';
-import Navbar from './components/navbar';
-import Sectionlogin from './components/sectionlogin';
+import AppRoutes from './routes.js'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Sectionlogin/>
+      <AppRoutes/>
     </div>
   );
 }

@@ -4,7 +4,8 @@ import './sectionlogin.css'
 
 const Sectionlogin = () => {
     return(
-        <section className='section-container'>
+<section className='container'>
+        <div className='section-container'>
             <div className='header-container'>
             Área de Login
             </div>
@@ -20,13 +21,15 @@ const Sectionlogin = () => {
                 placeholder='Digite a sua senha de acesso'
                 />
                 <div className='button-container'>
+                    <a href='./home'>
                 <Button>
                     Login
                 </Button>
-                
+                </a>
                 </div><br></br>
                 <a href='#'>Esqueceu a sua senha?</a>
                 
+            </div>
             </div>
         </section>
     )
